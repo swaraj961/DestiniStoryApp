@@ -29,6 +29,10 @@ List<Story> _storyData = [
      c2: ''),
 ];
 
+void nextstory(int choiceno ){
+
+  
+}
 String getstory(){
   return _storyData[_storyno].storytittle;
 }
