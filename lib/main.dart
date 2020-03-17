@@ -39,10 +39,9 @@ class _StoryPageState extends State<StoryPage> {
                 flex: 12,
                 child: Center(
                   child: Text(
-                   
                     b1.getStory(),
                     style: TextStyle(
-                      fontSize: 25.0,
+                      fontSize: 20.0,
                     ),
                   ),
                 ),
@@ -51,8 +50,7 @@ class _StoryPageState extends State<StoryPage> {
                 flex: 2,
                 child: FlatButton(
                   onPressed: () {
-                 
-                    setState(() {
+                  setState(() {
                      b1.nextStory(1);
                     });
                   },
